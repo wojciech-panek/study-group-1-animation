@@ -19,6 +19,18 @@
   background: #5c4f71;
   height: 50px;
   cursor: pointer;
+  text-align: center;
+  padding: 7px 0;
+  box-sizing: border-box;
+
+  svg {
+    stroke: #9C8CAD;
+    fill: #9C8CAD;
+  }
+}
+
+.app__list-item-icon {
+  display: inline-block;
 }
 
 .app__listColours-wrapper {
@@ -42,6 +54,14 @@
   font-size: 14px;
   height: 50px;
   color: #fff;
+  text-align: center;
+  padding: 7px 0;
+  box-sizing: border-box;
+
+  svg {
+    stroke: #FFF;
+    fill: #FFF;
+  }
 }
 
 .app__listColours-item:nth-child(1){background: #d15752}
